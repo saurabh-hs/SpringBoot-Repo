@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active: dev
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: shshinde@mitaoe.ac.in
+    password: nwcx cndq ykoz jwxe
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+weather:
+  api:
+    key: dc96263477636586219d1ceeba88e7fb

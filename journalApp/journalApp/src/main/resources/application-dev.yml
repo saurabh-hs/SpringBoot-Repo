@@ -1,0 +1,23 @@
+application:
+  yml:
+spring:
+  redis:
+    uri: redis://default:2L9fL6ZGNRrVRQNfUfkIH1tqf6226y1o@redis-19077.crce179.ap-south-1-1.ec2.redns.redis-cloud.com:19077
+#    host: localhost
+#    port: 6379
+  data:
+    mongodb:
+      uri: mongodb+srv://shshinde31:saurabh-hs@journalcluster.hpqn1.mongodb.net/?retryWrites=true&w=majority&appName=JournalCluster
+      database: journaldb
+      auto-index-creation: true
+
+server:
+  port: 8080
+
+#logging:
+#  level:
+#    com:
+#      journalapp:
+#        journalApp: DEBUG
+#  servlet:
+#    context-path: /journal
